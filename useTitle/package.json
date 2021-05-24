@@ -1,0 +1,33 @@
+{
+  "name": "@websitehooks/use-title",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "version": "1.0.6",
+  "description": "React Hook to update your document's title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fundevCA/customHooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title",
+    "hooks",
+    "website",
+    "change"
+  ],
+  "author": "Blake Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fundevCA/customHooks/issues"
+  },
+  "homepage": "https://github.com/fundevCA/customHooks#readme",
+  "type": "module",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

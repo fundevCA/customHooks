@@ -2,17 +2,17 @@
 
 Project to create a Custom Hooks and Upload to NPM
 
-- [] useInput
-- [] useTabs
-- [] useTitle
-- [] useClick
-- [] useHover
-- [] useConfirm
-- [] usePreventLeave
-- [] useBeforeLeave
-- [] useFadeIn
-- [] useNetwork
-- [] useFullScreen
-- [] useNotification
-- [] useScroll
-- [] useAxios
+- [x] useInput
+- [x] useTabs
+- [x] useTitle
+- [x] useClick
+- [x] useHover
+- [x] useConfirm
+- [x] usePreventLeave
+- [x] useBeforeLeave
+- [x] useFadeIn
+- [x] useNetwork
+- [x] useFullScreen
+- [x] useNotification
+- [x] useScroll
+- [x] useAxios

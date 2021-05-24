@@ -1,4 +1,6 @@
-export default useTitle = titleText => {
+import { useState, useEffect } from "react";
+
+export const useTitle = titleText => {
   const [title, setTitle] = useState(titleText);
 
   const UpdateTitle = () => {

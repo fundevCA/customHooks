@@ -6,7 +6,7 @@ export default useAxios = (httpReq, axiosInstance = axios) => {
   });
   const [trigger, setTrigger] = useState(0);
 
-  // Everytime user calls the refetch, axios will make a new request
+  // When user calls the refetch, axios will make a new request
   const refetch = () => {
     setState({
       ...state,
