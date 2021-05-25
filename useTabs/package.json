@@ -1,0 +1,30 @@
+{
+  "name": "@websitehooks/use-tabs",
+  "version": "1.0.1",
+  "description": "React Hook to use Tabs in your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fundevCA/customHooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "tabs",
+    "website",
+    "change"
+  ],
+  "author": "Blake Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fundevCA/customHooks/issues"
+  },
+  "homepage": "https://github.com/fundevCA/customHooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
