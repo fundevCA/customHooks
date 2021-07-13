@@ -1,4 +1,4 @@
-export default usePreventLeave = () => {
+export const usePreventLeave = () => {
   const preventor = event => {
     event.preventDefault();
     event.returnValue = "";

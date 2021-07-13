@@ -1,4 +1,6 @@
-export default useAxios = (httpReq, axiosInstance = axios) => {
+import { useState, useEffect } from "react";
+
+export const useAxios = (httpReq, axiosInstance = axios) => {
   const [state, setState] = useState({
     loading: true,
     error: null,

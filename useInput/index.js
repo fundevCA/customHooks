@@ -1,4 +1,6 @@
-export default useInput = (initialValue, validator) => {
+import { useState } from "react";
+
+export const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);
 
   const onChange = event => {
@@ -11,7 +13,6 @@ export default useInput = (initialValue, validator) => {
     }
     if (willUpdate) {
       setValue(value);
-      console.log(value);
     }
   };
 

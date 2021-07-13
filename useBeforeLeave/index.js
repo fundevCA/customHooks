@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // Trigger parameter function
 // when mouse leave towards the upper side of the browser
 export default useBeforeLeave = beforeLeave => {

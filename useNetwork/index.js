@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 export default useNetwork = onChange => {
   const [status, setStatus] = useState(navigator.onLine);
 

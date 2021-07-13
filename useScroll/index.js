@@ -1,4 +1,6 @@
-export default useScroll = () => {
+import { useState, useEffect } from "react";
+
+export const useScroll = () => {
   const [scroll, setScroll] = useState(0);
   const handleScroll = () => {
     setScroll({ x: window.scrollX, y: window.scrollY });

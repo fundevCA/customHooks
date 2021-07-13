@@ -1,4 +1,6 @@
-export default useHover = onHover => {
+import { useRef, useEffect } from "react";
+
+export const useHover = onHover => {
   const element = useRef();
   useEffect(() => {
     if (element.current) {

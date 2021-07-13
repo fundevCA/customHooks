@@ -1,4 +1,4 @@
-export default useNotification = (title, message) => {
+export const useNotification = (title, message) => {
   const options = {
     body: message
   };

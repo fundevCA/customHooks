@@ -1,4 +1,6 @@
-export default useFullScreen = callback => {
+import { useRef } from "react";
+
+export const useFullScreen = callback => {
   const element = useRef();
   const runCB = isFull => {
     if (callback && typeof callback === "function") {

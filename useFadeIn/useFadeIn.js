@@ -1,4 +1,6 @@
-export default useFadeIn = (duration = 1, delay = 0) => {
+import { useRef, useEffect } from "react";
+
+export const useFadeIn = (duration = 1, delay = 0) => {
   const element = useRef();
 
   useEffect(() => {
